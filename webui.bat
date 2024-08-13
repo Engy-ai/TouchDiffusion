@@ -1,7 +1,6 @@
 @echo off
 
-set PYTHON_PATH=
-
+set PYTHON_PATH="C:\Users\DC\Downloads\python-3.11.8-amd64.exe"
 REM Check if Git is installed
 where git > nul 2>&1
 if %errorlevel% neq 0 (
